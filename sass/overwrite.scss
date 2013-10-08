@@ -1,26 +1,122 @@
 
+$highlight: #e73930;
 body{
 	font-size: 16pt;
+	font-family: 'Roboto';
+	font-weight: 100;
 }
 small{
 	font-size: 1em !important;
 }
-.customer-ramen{
-	background-color: #000;
-	background-image: url('../images/partofcustomer.png');
+.slide-content{
+
+}
+a{
+	color: $highlight;
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 100 !important;
+	display: block;
+	line-height: 1.2em;
+	box-sizing: border-box;
+	color:#333;
+}
+.title-page{
+	background-image: url('../images/ramengirl.jpg');
+	background-size: cover;
+	background-position: -100px center;
 	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center center;
-	section{
+	color: #666;
+	
+	.present{
+padding: 0px !important;
+width: 100%;
+text-align: right;
+left: 0px;
+right: 0px;
+	}
+	h1{
+		color: #333;
+		font-size: 3.8em;
+		padding: 0px 0px;
+		color: #e73930;
+	}
+	h3{
+		margin-top: 0px;
+		text-transform: lowercase;
+		line-height: 1.5em;
+	}
+
+}
+.site-product{
+	background-image: url('../images/sitevsproduct.jpg');
+	background-size: cover;
+	color: #fff;
+
+	.present{
 		
+	}
+	h1{
+		color: #fff;
+		margin-bottom: 10px;
+	}
+	em{
+		color: $highlight;
+	}
+	span{
+		background: #fff;
+		vertical-align: middle;
+		display: inline-block;
+		line-height: 1em;
+		border-radius: 0.75em;
+		padding: 0.25em;
+		font-size: 0.8em;
+		color: #333;
+
+		margin: 0px 10px;
+		text-align: center;
+	}
+}
+.customer-ramen{
+
+	background-image: url('../images/ramendelight.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	text-align: left;
+	section{
+		color: #fff;
+		section.quote{
+		color: #fff;
+		margin-top: -60px;
+		margin-left: -200px;
+		}
+		&:nth-child(2){
+			font-size: 2em;
+			p{
+				padding-right: 600px;
+				box-sizing: border-box;
+			}
+		}
 		blockquote{
+			font-weight: 100;
 			border: none;
 			box-shadow: none;
-			background-color: rgba(255,255,255,0.4);
+			background-color: transparent;
 			border-radius: 10px;
 			padding: 10px 10px;
 			font-size: 1.5em;
 			line-height: 1.1em;
+			text-align: left;
+			padding-right:200px;
+			box-sizing: border-box;
+			color: #fff;
+			font-size: 1.5em;
+			strong{
+				color: lighten($highlight, 20%);
+				font-weight: 300;
+			}
 		}
 	}
 }

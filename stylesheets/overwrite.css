@@ -1,0 +1,22 @@
+body {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #ffc; }
+
+small {
+  font-size: 1em !important; }
+
+.customer-ramen {
+  background-color: #000;
+  background-image: url("../images/partofcustomer.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center; }
+  .customer-ramen section blockquote {
+    border: none;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 1.5em;
+    line-height: 1.1em; }

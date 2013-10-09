@@ -95,3 +95,28 @@ h1, h2, h3, h4, h5, h6 {
       .customer-ramen section blockquote strong {
         color: #f2908b;
         font-weight: 300; }
+
+.inner-universe {
+  background-image: url("../images/ramenbowl.jpg");
+  background-size: cover;
+  color: #fff; }
+  .inner-universe .present {
+    box-shadow: 0px;
+    background: transparent;
+    border-radius: 1em; }
+    .inner-universe .present blockquote {
+      color: #fff;
+      box-shadow: none;
+      background: transparent;
+      font-size: 1.5em;
+      line-height: 1.2em;
+      font-weight: 200;
+      text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8); }
+    .inner-universe .present h1 {
+      color: #fff;
+      background-color: #e73930;
+      padding: 10px 0px;
+      border-radius: 1em; }
+    .inner-universe .present p {
+      font-size: 1.5em;
+      font-weight: 300; }

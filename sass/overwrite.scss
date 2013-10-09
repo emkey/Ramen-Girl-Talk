@@ -126,6 +126,9 @@ right: 0px;
 	background-image: url('../images/ramenbowl.jpg');
 	background-size: cover;
 	color: #fff;
+	h1{
+		color: #fff;
+	}
 	.present{
 		box-shadow: 0px;
 		background: transparent;
@@ -139,16 +142,80 @@ right: 0px;
 			font-weight: 200;
 			text-shadow: 0px 0px 10px rgba(0,0,0,0.8);
 		}
-		h1{
+		&:nth-child(2){
+			h1{
 			color: #fff;
 			background-color: $highlight;
 			padding: 10px 0px;
 			border-radius: 1em;
 			
+			}
+		}
+		&:nth-child(3){
+			background: rgba(0,0,0,0.3);
+			h1{
+				margin-bottom: 50px;
+			}
+			li{
+				font-weight: 300;
+				font-size: 1.5em;
+				line-height: 1.2em;
+				margin-left: 100px;
+				strong{
+					color: $highlight;
+					
+				}
+			}
 		}
 		p{
 			font-size: 1.5em;
 			font-weight: 300;
 		}
+		.emphasize{
+			font-size: 4em;
+			font-weight: 200;
+		}
 	}
+}
+.quiet-place{
+	background-image: url('../images/quietplace.jpg');
+	background-size: cover;
+	color: #fff;
+	box-shadow: none;
+	.present{
+		margin-top: 100px;
+		background: transparent;
+		box-shadow: 0px;
+		
+	}
+	blockquote{
+		box-shadow: none;
+		background: transparent;
+		font-weight: 300;
+	}
+	h1{
+		color: #fff;
+		font-size: 3em;
+		border-bottom: 3px solid $highlight;
+		padding-bottom: 10px;
+	}
+	strong{
+		color: $highlight;
+	}
+
+}
+.observe{
+		background-image: url('../images/observe.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+.laugh{
+	background-image: url('../images/laugh.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.cry{
+	background-image: url('../images/cry.png');
+	background-size: cover;
+	background-repeat: no-repeat;
 }

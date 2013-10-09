@@ -76,7 +76,8 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 2em; }
       .customer-ramen section:nth-child(2) p {
         padding-right: 600px;
-        box-sizing: border-box; }
+        box-sizing: border-box;
+        font-weight: 300; }
     .customer-ramen section blockquote {
       font-weight: 100;
       border: none;

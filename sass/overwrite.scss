@@ -126,12 +126,13 @@ right: 0px;
 	background-image: url('../images/ramenbowl.jpg');
 	background-size: cover;
 	color: #fff;
+	
 	h1{
 		color: #fff;
 	}
 	.present{
 		box-shadow: 0px;
-		background: transparent;
+		background: rgba(0,0,0,0.2);
 		border-radius: 1em;
 		blockquote{
 			color: #fff;

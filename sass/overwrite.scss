@@ -11,6 +11,16 @@ small{
 .slide-content{
 
 }
+.first-slide{
+	text-align: right;
+	h1,h2,h3,p{
+		text-align: right;
+		color: #fff;
+	}
+	h1{
+		color: #fff;
+	}
+}
 a{
 	color: $highlight;
 	text-decoration: none;
@@ -49,8 +59,16 @@ right: 0px;
 	}
 
 }
+
+		span.highlightbox{
+		color: #333;
+		background-color: #fff;
+		padding: 10px 10px;
+		border-radius: 10px;
+		display: inline-block;
+		}
 .site-product{
-	background-image: url('../images/sitevsproduct.jpg');
+
 	background-size: cover;
 	color: #fff;
 

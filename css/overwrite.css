@@ -6,6 +6,14 @@ body {
 small {
   font-size: 1em !important; }
 
+.first-slide {
+  text-align: right; }
+  .first-slide h1, .first-slide h2, .first-slide h3, .first-slide p {
+    text-align: right;
+    color: #fff; }
+  .first-slide h1 {
+    color: #fff; }
+
 a {
   color: #e73930;
   text-decoration: none; }
@@ -39,8 +47,14 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: lowercase;
     line-height: 1.5em; }
 
+span.highlightbox {
+  color: #333;
+  background-color: #fff;
+  padding: 10px 10px;
+  border-radius: 10px;
+  display: inline-block; }
+
 .site-product {
-  background-image: url("../images/sitevsproduct.jpg");
   background-size: cover;
   color: #fff; }
   .site-product h1 {
